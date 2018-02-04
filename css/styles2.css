@@ -1,0 +1,141 @@
+html{size: 100%}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding:0;
+}
+.container {
+	background-image: url("../img/showcase.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 10%;
+	margin-right: 13%;
+	background-size: 100% 100%;
+	height: 500px;
+	
+}
+.container h1 {
+	color: grey;
+	text-align: center;
+	padding-top: 100px;
+	font-family: monospace;
+}
+
+.showcase h3 {
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-right: 20px;
+	color: grey;	
+	font-family: helvetica;
+}
+.showcase {
+	/*text-align: center;	*/
+	clear: both;
+	text-align: center;
+}
+#ok {
+	margin-left: 40%;
+}
+.showcase p {
+	clear: both;
+	color: grey;
+	margin-left: 80px;
+}
+.nav img {
+	height: 20px;
+	float: left;
+	text-align: center;
+	position: relative;
+	padding-left: 11%;
+}
+
+.nav a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	text-align: right;
+	padding-right: 50px;
+}
+.nav li {
+	list-style-type: none;
+	text-align: right;
+	float: right;
+	position: relative;
+	margin-top: 0
+}
+.nav {
+	padding-right: 150px;
+	font-family: monospace;
+}
+
+a:link {text-decoration: none;}
+
+.boxes {
+	clear: both;
+	color: white;
+	display: block;
+	margin: 10%;
+
+
+}
+.boxes h3 {
+	border: solid white 2px;
+	border-radius: 15px;
+}
+.boxes a{
+	text-decoration: none;
+	color: white;
+
+}
+.box {
+	text-align: center;
+	background-color: grey;
+	width: 420px;
+	height: 500px;
+	float: left;
+	/*background-image: url(../img/supportchairs.jpg);
+	background-size: 250px 250px;
+	padding-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+	display: block;
+	padding: 10px;
+	border: black 1pt solid;
+	border-radius: 15px;
+	margin-right: 10%;
+
+}
+.box img {
+	height: 220px;
+	width: 220px;
+	border:solid white 5px;
+}
+.hi {
+	background-color: black;
+	width: 420px;
+	height: 500px;
+	float: left;
+	text-align: center;
+	display: block;
+	/*background-image: url(../img/minimalhead.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+	padding: 10px;
+	border: grey 1pt solid;
+	border-radius: 15px;
+}
+.hi img {
+	height: 220px;
+	width: 220px;
+	border:solid white 5px;
+}
+
+#footer {
+	background-color: :maroon;
+	
+}
